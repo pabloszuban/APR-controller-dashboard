@@ -102,6 +102,7 @@ end
     @out last_distributed_rewards_value = round(last_distributed_rewards / 1e9, digits=2)
     @out last_should_have_distributed_value = round(last_should_have_distributed / 1e9, digits=2)
     @out last_apr_value = mx.apr[end]
+    @out last_utilization_factor_value = round(mx.cash[end] / tao.total_staked[end] * 100, digits=2)
 
     @onbutton refresh begin
         update_dataframes()
@@ -167,6 +168,7 @@ end
         last_distributed_rewards_value = round(last_distributed_rewards / 1e9, digits=2)
         last_should_have_distributed_value = round(last_should_have_distributed / 1e9, digits=2)
         last_apr_value = mx.apr[end]
+        last_utilization_factor_value = round(mx.cash[end] / tao.total_staked[end] * 100, digits=2)
     end
 end
 

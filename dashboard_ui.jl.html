@@ -1,51 +1,44 @@
-<style>
-    .title {
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-        font-size: 24px; /* Asegúrate de ajustar el tamaño según tu diseño */
-        color: #000; /* Color de texto, ajústalo según tu diseño */
-    }
-    .sub-title {
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-        font-size: 20px; /* Asegúrate de ajustar el tamaño según tu diseño */
-        color: #000; /* Color de texto, ajústalo según tu diseño */
-    }
-</style>
-
 <div class="row st-col" style="background-color:rgba(173, 216, 230, 0.2);">
     <q-btn id="iwqy" label="Compute new data" v-on:click="refresh = true" :disable="refresh" color="primary" icon="refresh"></q-btn>
 </div>
 
-<div class="row" style="background-color:rgba(173, 216, 230, 0.2);">
+<div class="row" style="background-color:rgba(173, 216, 230, 0.2); padding: 20px;">
     <div class="st-col col-3 col-sm-3 st-module" style="margin-left: 3%;">
-        <h4 style="margin-left: 30%;">Last values</h4>
-        <div class="row">
-            <st-big-number :number= "last_loss_value" title="Loss [WTAO]"></st-big-number>
-        </div>
-        <div class="row">
-            <st-big-number :number= "last_distributed_rewards_value" title="Distributed rewards [WTAO]"></st-big-number>
-        </div>
-        <div class="row">
-            <st-big-number :number= "last_should_have_distributed_value" title="Should have distributed [WTAO]"></st-big-number>
+        <h4 style="margin-left: 28%; font-family: Arial, sans-serif; font-weight: bold;">Last values</h4>
+        <div class="row" style="display: flex; flex-direction: column; gap: 10px;">
+            <div class="box" style="background-color: rgba(220, 53, 69, 0.1); border: 2px solid #dc3545; border-radius: 10px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s, box-shadow 0.2s;">
+                <st-big-number :number="last_loss_value" title="Loss [WTAO]" style="text-align: center; font-size: 1.2em;"></st-big-number>
+            </div>
+            <div class="box" style="background-color: rgba(94, 23, 141, 0.1); border: 2px solid #5e178d; border-radius: 10px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s, box-shadow 0.2s;">
+                <st-big-number :number="last_distributed_rewards_value" title="Distributed rewards [WTAO]" style="text-align: center; font-size: 1.2em;"></st-big-number>
+            </div>
+            <div class="box" style="background-color: rgba(248, 188, 24, 0.1); border: 2px solid #f8bc18; border-radius: 10px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s, box-shadow 0.2s;">
+                <st-big-number :number="last_should_have_distributed_value" title="Should have distributed [WTAO]" style="text-align: center; font-size: 1.2em;"></st-big-number>
+            </div>
         </div>
     </div>
-    <div class="st-col col-9 col-sm-8 st-module" >
-        <h4 style="margin-left: 45%; cursor:pointer;" title="Defined as the distributed rewards in MultiversX minus should have distributed rewards value">Loss</h4>
+    <div class="st-col col-9 col-sm-8 st-module">
+        <h4 style="margin-left: 45%; cursor: pointer; font-family: Arial, sans-serif; font-weight: bold;" title="Defined as the distributed rewards in MultiversX minus should have distributed rewards value">Loss</h4>
         <plotly :data="loss_scatter_trace" :layout="loss_scatter_layout" :displaylogo="false"></plotly>
     </div>
 </div>
 
+<style>
+    .box:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+</style>
 
 <div class="row st-col " style="background-color:rgba(173, 216, 230, 0.2);">
     <div class="st-col col-4 col-sm st-module st-col ">
-        <h4 style="margin-left: 10%;">Plot for Bittensor accumulated rewards, distributed rewards and should have distributed rewards</h4>
+        <h4 style="margin-left: 6%; font-family: Arial, sans-serif; font-weight: bold;">Plot for Bittensor accumulated rewards, distributed rewards and should have distributed rewards</h4>
         <plotly :data="scatter_trace" :layout="scatter_layout" :displaylogo="false"></plotly>
+        <p style="margin-left: 4%; cursor: pointer; font-family: Arial, sans-serif; font-size: 1.3em;" title="The rate between the WTAO deposited on liquid staking and the TAO staked on Bittensor">Last Liquid Staking utilization factor value: {{last_utilization_factor_value}}%</p>
     </div>
 </div>
 <div class="row" style="background-color:rgba(173, 216, 230, 0.2);">
     <div class="st-col col-4 col-sm st-module st-col ">
-        <h4 style="margin-left: 40%;">Plot for APR</h4>
+        <h4 style="margin-left: 40%; font-family: Arial, sans-serif; font-weight: bold;">Plot for APR</h4>
         <plotly :data="apr_trace" :layout="apr_layout" :displaylogo="false"></plotly>
     </div>
     <div class="st-col col-4 col-sm-3 st-module">

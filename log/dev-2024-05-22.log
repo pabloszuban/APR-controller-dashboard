@@ -162,3 +162,158 @@
 └ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
 ┌ Info: 2024-05-22 10:08:37 Listening on: 127.0.0.1:8000, thread id: 1
 └ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 10:35:33 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 10:36:27 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 10:36:55 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 10:37:13 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 10:37:13 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 11:06:56 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:07:20 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:07:35 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:07:45 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:07:56 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:08:37 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:08:43 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:12:02 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:14:56 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:16:49 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:17:42 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:17:55 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:18:39 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:21:48 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:25:27 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:25:37 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:29:39 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:29:48 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:29:54 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 11:32:18 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 11:56:58 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 11:57:18 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 11:57:32 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 11:57:32 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 12:00:09 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 12:05:36 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:05:57 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:06:09 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 12:06:09 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 12:06:56 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 12:08:24 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:08:44 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:08:50 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 12:08:50 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 12:09:20 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 12:12:32 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:12:53 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:13:06 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 12:13:07 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 12:15:06 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:16:01 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Warning: 2024-05-22 12:16:01 UndefVarError(:last_utilization_factor_value)
+└ @ Genie.Renderer.Html /home/pabloszuban/.julia/packages/Genie/w41yU/src/renderers/Html.jl:140
+┌ Warning: 2024-05-22 12:16:17 UndefVarError(:last_utilization_factor_value)
+└ @ Genie.Renderer.Html /home/pabloszuban/.julia/packages/Genie/w41yU/src/renderers/Html.jl:140
+┌ Info: 2024-05-22 12:17:06 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 12:17:47 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:18:07 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:18:20 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 12:18:20 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Warning: 2024-05-22 12:18:37 UndefVarError(:last_utilization_factor_value)
+└ @ Genie.Renderer.Html /home/pabloszuban/.julia/packages/Genie/w41yU/src/renderers/Html.jl:140
+┌ Info: 2024-05-22 12:21:03 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Warning: 2024-05-22 12:21:04 UndefVarError(:last_utilization_factor_value)
+└ @ Genie.Renderer.Html /home/pabloszuban/.julia/packages/Genie/w41yU/src/renderers/Html.jl:140
+┌ Info: 2024-05-22 12:21:08 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
+┌ Info: 2024-05-22 12:21:48 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:22:08 Watching ["/home/pabloszuban/Documentos/RatherLabs/MultiPageApp"]
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-05-22 12:22:21 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/pabloszuban/.julia/packages/Genie/w41yU/src/Server.jl:182
+┌ Info: 2024-05-22 12:22:21 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:382
+┌ Info: 2024-05-22 12:23:02 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:25:06 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Warning: 2024-05-22 12:25:07 UndefVarError(:last_utilization_factor_value)
+└ @ Genie.Renderer.Html /home/pabloszuban/.julia/packages/Genie/w41yU/src/renderers/Html.jl:140
+┌ Info: 2024-05-22 12:25:38 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:30:09 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:31:16 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:31:27 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:31:36 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:31:48 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:31:55 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:32:06 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:32:22 Autoreloading
+└ @ GenieAutoReload /home/pabloszuban/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-05-22 12:32:41 Server on 127.0.0.1:8000 closing
+└ @ HTTP.Servers /home/pabloszuban/.julia/packages/HTTP/sJD5V/src/Servers.jl:409
