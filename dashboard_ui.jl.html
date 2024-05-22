@@ -1,0 +1,65 @@
+<style>
+    .title {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 24px; /* Asegúrate de ajustar el tamaño según tu diseño */
+        color: #000; /* Color de texto, ajústalo según tu diseño */
+    }
+    .sub-title {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px; /* Asegúrate de ajustar el tamaño según tu diseño */
+        color: #000; /* Color de texto, ajústalo según tu diseño */
+    }
+</style>
+
+<div class="row st-col" style="background-color:rgba(173, 216, 230, 0.2);">
+    <q-btn id="iwqy" label="Compute new data" v-on:click="refresh = true" :disable="refresh" color="primary" icon="refresh"></q-btn>
+</div>
+
+<div class="row" style="background-color:rgba(173, 216, 230, 0.2);">
+    <div class="st-col col-3 col-sm-3 st-module" style="margin-left: 3%;">
+        <h4 style="margin-left: 30%;">Last values</h4>
+        <div class="row">
+            <st-big-number :number= "last_loss_value" title="Loss [WTAO]"></st-big-number>
+        </div>
+        <div class="row">
+            <st-big-number :number= "last_distributed_rewards_value" title="Distributed rewards [WTAO]"></st-big-number>
+        </div>
+        <div class="row">
+            <st-big-number :number= "last_should_have_distributed_value" title="Should have distributed [WTAO]"></st-big-number>
+        </div>
+    </div>
+    <div class="st-col col-9 col-sm-8 st-module" >
+        <h4 style="margin-left: 45%; cursor:pointer;" title="Defined as the distributed rewards in MultiversX minus should have distributed rewards value">Loss</h4>
+        <plotly :data="loss_scatter_trace" :layout="loss_scatter_layout" :displaylogo="false"></plotly>
+    </div>
+</div>
+
+
+<div class="row st-col " style="background-color:rgba(173, 216, 230, 0.2);">
+    <div class="st-col col-4 col-sm st-module st-col ">
+        <h4 style="margin-left: 10%;">Plot for Bittensor accumulated rewards, distributed rewards and should have distributed rewards</h4>
+        <plotly :data="scatter_trace" :layout="scatter_layout" :displaylogo="false"></plotly>
+    </div>
+</div>
+<div class="row" style="background-color:rgba(173, 216, 230, 0.2);">
+    <div class="st-col col-4 col-sm st-module st-col ">
+        <h4 style="margin-left: 40%;">Plot for APR</h4>
+        <plotly :data="apr_trace" :layout="apr_layout" :displaylogo="false"></plotly>
+    </div>
+    <div class="st-col col-4 col-sm-3 st-module">
+        <div class="row">
+            <st-big-number :number= "last_apr_value" title="Last APR [%]"></st-big-number>
+        </div> 
+        <div class="row">
+            <st-big-number :number= 21 title="Max APR [%]"></st-big-number>
+        </div>
+        <div class="row">
+            <st-big-number :number= 10 title="Min APR [%]"></st-big-number>
+        </div>
+        <div class="row">
+            <st-big-number :number= 0.1 title="Max delta APR [%]"></st-big-number>
+        </div>
+    </div>
+</div>
